@@ -30,8 +30,12 @@ p{
 #Rechercher, button{
     display: flex;
     height: 1.5%;
-    text-align: center;
+    align-items: center;
 }
 #catégories{
     display: flex;
+}
+#section_left{
+    display: flex;
+    align-items: center;
 }
