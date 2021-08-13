@@ -1,9 +1,6 @@
 body{
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@100&display=swap" rel="stylesheet">
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
+     font-family: 'Raleway', sans-serif;
+     color: black;
 }
 header{
     display:flex;
@@ -21,21 +18,27 @@ img{
 }
 h1{
     margin: 2em ;
-    font-size: medium;
 }
 p{
     margin: 2em ;
-    font-size: medium
-}
-#Rechercher, button{
-    display: flex;
-    height: 1.5%;
-    align-items: center;
 }
 #catégories{
     display: flex;
 }
-#section_left{
+.content-article{
     display: flex;
     align-items: center;
+}
+#host img{
+    height: 200px;
+}
+.content-host-popular{
+    display: flex;
+}
+button{
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
 }
