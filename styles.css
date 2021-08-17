@@ -1,6 +1,7 @@
 body{
      font-family: 'Raleway', sans-serif;
      color: black;
+     margin-left: 2em;
 }
 header{
     display:flex;
@@ -28,9 +29,14 @@ p{
 .content-article{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    background-color: #F2F2F2;
+    border-radius: 30px;
 }
 #host img{
     height: 200px;
+    width: 300px;
 }
 .content-host-popular{
     display: flex;
@@ -41,4 +47,33 @@ button{
     border: none;
     border-radius: 6px;
     padding: 10px 20px;
+}
+#section-bottom img{
+    height: 200px;
+    width: 300px;
+}
+.content-bottom{
+    display:flex;
+    flex-wrap: wrap;
+}
+#popular img{
+    height: 200px;
+    width: 250px;
+}
+#popular{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    margin-left: 2em;
+    border-radius: 30px;
+}
+#content-bottom{
+    display: flex;
+    align-items: stretch;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: medium;
+}
+h4{
+    margin-left: 2em;
 }
