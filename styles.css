@@ -17,7 +17,7 @@ header{
     flex-direction: row;
 }
 main{
-    margin: 6em;
+    margin-left: 6em;
 }
 nav ul{
     display: flex;
@@ -51,6 +51,16 @@ main ul{
 main ul li{
     margin: 1em;
 }
+.fa-info{
+    border: solid;
+    color: #0065FC;
+    border-color: #F2F2F2;
+    border-radius:100%;
+    line-height:20px;
+    text-align:center;
+    width:20px;
+    height:20px;
+}
 /* host*/
 .content-host-popular h2{
     margin-left: 1em;
@@ -70,7 +80,7 @@ main ul li{
 }
 #host img{
     height: 180px;
-    width: 270px;
+    width: 300px;
     object-fit: cover;
     margin: 6px;
     border-radius: 20px 20px 0 0;
@@ -85,8 +95,8 @@ main ul li{
  }
  /* popular*/
  #popular img{
-    height: 170px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     object-fit:cover;
     margin:0px 0px 8px 8px;
     float: left;
@@ -96,9 +106,8 @@ main ul li{
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-    margin-left: 1em;
-    margin-right: 2em;
     border-radius: 30px;
+    margin-left: 1em;
 }
 #popular-content article{
     background-color: white;
