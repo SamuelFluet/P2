@@ -10,7 +10,7 @@ header{
 main{
     margin-left: 2em;
 }
-ul{
+nav ul{
     display: flex;
     list-style: none;
 }
@@ -78,10 +78,6 @@ button{
 #content-bottom{
     display: flex;
 }
-h4{
-    padding: 2em;
-    font-size: x-large;
-}
 #popular-content img{
     float: left;
 }
@@ -95,36 +91,23 @@ h4{
     margin: 2em;
     border-radius: 30px;
 }
-h3{
-    font-size:x-large;
-    margin: 2em;
-}
-h5{
-    font-size:x-large;
-}
-h9{
-    font-size:x-large;
-    margin: 2em;
-    font-weight: bold;
-}
 main article :nth-child(2n){
     font-weight: bold;
 }
 #content-bottom img{
     object-fit: cover;
 }
-#foot{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-h6, h7, h8{
-    font-weight: bold;
-    font-size: large;
-}
 footer{
+    display: flex;
+    justify-content: space-around;
     background-color: #F2F2F2;
 }
 #foot article{
       margin: 2em;
+}
+ul{
+    list-style: none;
+}
+h2{
+    margin-left: 2em;
 }
