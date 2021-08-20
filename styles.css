@@ -17,7 +17,7 @@ header{
     flex-direction: row;
 }
 main{
-    margin-left: 2em;
+    margin-left: 3em;
 }
 nav ul{
     display: flex;
@@ -96,13 +96,17 @@ main ul li{
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-    margin-left: 2em;
+    margin-left: 1em;
+    margin-right: 2em;
     border-radius: 30px;
 }
 #popular-content article{
     background-color: white;
     margin: 2em;
     border-radius: 20px 
+}
+#popular h2{
+    margin: 1em;
 }
 /* bottom*/
 .Activity h2{
@@ -116,15 +120,15 @@ main ul li{
 .article1 img{
     object-fit:cover;
     margin: 20px;
-    height: 500px;
-    width: 320px;
+    height: 600px;
+    width: 350px;
     border-radius: 20px
 }
 .article2 img{
     object-fit:cover;
     margin: 20px;
     height: 250px;
-    width: 320px;
+    width: 350px;
     border-radius: 20px
 }
 /* footer*/
