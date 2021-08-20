@@ -73,6 +73,7 @@ main ul li{
     width: 270px;
     object-fit: cover;
     margin: 5px;
+    border-radius: 30px;
 }
 #host article{
     background-color: white;
@@ -89,6 +90,7 @@ main ul li{
     object-fit:cover;
     margin: 6px;
     float: left;
+    border-radius: 30px;
 }
 #popular-content{
     display: flex;
