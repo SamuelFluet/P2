@@ -136,3 +136,6 @@ footer{
 #foot article{
       margin: 2em;
 }
+footer li{
+    margin: 1em;
+}
