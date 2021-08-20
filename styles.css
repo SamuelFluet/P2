@@ -72,13 +72,13 @@ main ul li{
     height: 180px;
     width: 270px;
     object-fit: cover;
-    margin: 5px;
-    border-radius: 30px;
+    margin: 6px;
+    border-radius: 20px 20px 0 0;
 }
 #host article{
     background-color: white;
-    margin: 2em;
     border-radius: 30px;
+    margin:2em;
 }
 .content-host-popular{
     display: flex;
@@ -90,7 +90,7 @@ main ul li{
     object-fit:cover;
     margin: 6px;
     float: left;
-    border-radius: 30px;
+    border-radius: 20px 0px 0px 20px;
 }
 #popular-content{
     display: flex;
@@ -102,7 +102,7 @@ main ul li{
 #popular-content article{
     background-color: white;
     margin: 2em;
-    border-radius: 30px;
+    border-radius: 20px 
 }
 /* bottom*/
 .Activity h2{
@@ -111,13 +111,21 @@ main ul li{
 .Activity{
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
 }
-.Activity img{
+.article1 img{
     object-fit:cover;
     margin: 20px;
-    height: 300px;
-    width: 300px;
-    border-radius: 20px;
+    height: 500px;
+    width: 320px;
+    border-radius: 20px
+}
+.article2 img{
+    object-fit:cover;
+    margin: 20px;
+    height: 250px;
+    width: 320px;
+    border-radius: 20px
 }
 /* footer*/
 footer{
