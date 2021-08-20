@@ -88,7 +88,7 @@ main ul li{
     height: 170px;
     width: 120px;
     object-fit:cover;
-    margin: 6px;
+    margin:0px 0px 8px 8px;
     float: left;
     border-radius: 20px 0px 0px 20px;
 }
