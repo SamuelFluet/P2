@@ -83,6 +83,7 @@ main ul li{
     width:30px;
     height:30px;
     background-color: #DEEBFF;
+    padding-top: 2px;
 }
 .fa-child{
     border: solid;
@@ -94,6 +95,7 @@ main ul li{
     width:30px;
     height:30px;
     background-color: #DEEBFF;
+    padding-top: 2px;
 }
 .fa-info{
     border: solid;
@@ -115,6 +117,7 @@ main ul li{
     width:30px;
     height:30px;
     background-color: #DEEBFF;
+    padding-top: 2px;
 }
 .fa-dog{
     border: solid;
@@ -126,6 +129,7 @@ main ul li{
     width:30px;
     height:30px;
     background-color: #DEEBFF;
+    padding-top: 1px;
 }
 /* host*/
 .content-host-popular h2{
