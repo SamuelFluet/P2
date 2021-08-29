@@ -169,6 +169,7 @@ main ul li span{
     background-color: #F2F2F2;
     border-radius: 30px;
     margin-left: 1em;
+    padding-bottom: 5em;
 }
 #popular-content article{
     background-color: white;
@@ -240,7 +241,7 @@ main ul li{
     }
     h1{
         font-weight: bolder;
-    }
+       }
     header{
         display: flex;
         flex-direction: column;
@@ -289,6 +290,5 @@ main ul li{
         display: inline-block;
         margin: 0px;
         width: 100%;
-    }
-   
+    }   
 }
