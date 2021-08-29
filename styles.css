@@ -40,6 +40,7 @@ nav ul li a:hover{
 }
 body h1{
     font-size: large;
+    margin-left: 1em;
 }
 #catégories{
     display: flex;
@@ -88,9 +89,8 @@ main ul li{
     padding: 0px 5px 0px 0px;
 }
 main ul li span{
-    border: solid;
+    border: none;
     color: #0065FC;
-    border-color: #F2F2F2;
     border-radius:100%;
     line-height:40px;
     text-align:center;
@@ -105,7 +105,7 @@ main ul li span{
     color:#0065FC ;
 }
 .star{
-    margin-left: 15px;
+    margin: 15px;
 }
 .fa-info{
     border: solid 2px ;
@@ -113,7 +113,7 @@ main ul li span{
     border-color: #F2F2F2;
     color: blue;
     text-align:center;
-    width: 25px;
+    width: 20px;
     line-height: 20px;
     margin-right: 5px;
 }
@@ -136,8 +136,8 @@ main ul li span{
     max-width: 1300px;
 }
 #host img{
-    height: 180px;
-    width: 300px;
+    height: 160px;
+    width: 320px;
     object-fit: cover;
     margin: 6px;
     border-radius: 20px 20px 0 0;
@@ -145,11 +145,11 @@ main ul li span{
 #host article{
     background-color: white;
     border-radius: 30px;
-    margin:2em;
+    margin:1em;
 }
 .content-host-popular{
     display: flex;
- }
+}
 
  /* popular*/
  .ico-graph{
@@ -162,11 +162,14 @@ main ul li span{
      width: 70px;
  }
  #popular{
-     margin-left: 2em;
-     margin-right: 1em;
+     margin-left: 3em;
+     margin-right: 2em;
+ }
+ #popular h1{
+     font-weight:x-large;
  }
  #popular img{
-    height: 150px;
+    height: 180px;
     width: 150px;
     object-fit:cover;
     margin:5px;
@@ -177,12 +180,10 @@ main ul li span{
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 30px;
-    margin-left: 1em;
-    padding-bottom: 5em;
 }
 #popular-content article{
     background-color: white;
-    margin: 35px;
+    margin: 20px;
     border-radius: 20px 
 }
 #popular h2{
