@@ -25,7 +25,18 @@ nav ul{
     list-style: none;
 }
 nav ul li{
-     margin: 1em; 
+    margin: 1em;
+    padding-top: 10px;
+    font-weight:bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+nav ul li a:hover{
+    padding-top: 10px;
+      border-top:#0065FC 1px solid;
+      color:#0065FC ;
 }
 body h1{
     font-size: large;
