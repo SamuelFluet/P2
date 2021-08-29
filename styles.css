@@ -162,7 +162,6 @@ main ul li span{
      display: flex;
      flex-direction: row;
      justify-content: space-between;
-     padding:2em;
 }
 #popular{
      margin-left: 3em;
