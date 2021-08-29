@@ -17,7 +17,7 @@ header{
     flex-direction: row;
 }
 main{
-    margin-left: 6em;
+    margin-left: 20px;
 }
 nav ul{
     display: flex;
@@ -36,6 +36,9 @@ body h1{
 /* main*/
 
 /* top*/
+#top{
+    margin-left: 2em;
+}
 #top form{
     display: flex;
 }
@@ -73,63 +76,33 @@ main ul li{
     font-size: large;
     padding: 0px 5px 0px 0px;
 }
-.fa-money-bill-wave-alt{
+main ul li span{
     border: solid;
     color: #0065FC;
     border-color: #F2F2F2;
     border-radius:100%;
-    line-height:30px;
+    line-height:40px;
     text-align:center;
-    width:30px;
-    height:30px;
+    width:40px;
     background-color: #DEEBFF;
-    padding-top: 2px;
+    display: inline-block;
 }
-.fa-child{
-    border: solid;
-    color: #0065FC;
-    border-color: #F2F2F2;
-    border-radius:100%;
-    line-height:30px;
-    text-align:center;
-    width:30px;
-    height:30px;
-    background-color: #DEEBFF;
-    padding-top: 2px;
+.grey{
+    color: #DEEBFF;
+}
+.blue{
+    color:#0065FC ;
+}
+.star{
+    margin-left: 15px;
 }
 .fa-info{
-    border: solid;
-    color: #0065FC;
-    border-color: #F2F2F2;
-    border-radius:100%;
-    line-height:32px;
-    text-align:center;
-    width:30px;
-    height:30px;
-}
-.fa-heart{
-    border: solid;
-    color: #0065FC;
-    border-color: #F2F2F2;
-    border-radius:100%;
-    line-height:30px;
-    text-align:center;
-    width:30px;
-    height:30px;
-    background-color: #DEEBFF;
-    padding-top: 2px;
-}
-.fa-dog{
-    border: solid;
-    color: #0065FC;
-    border-color: #F2F2F2;
-    border-radius:100%;
-    line-height:30px;
-    text-align:center;
-    width:30px;
-    height:30px;
-    background-color: #DEEBFF;
-    padding-top: 1px;
+    border: 4px;
+    border-radius: 100%;
+    border-color: ##F2F2F2;
+    color: blue;
+    width: 30px;
+    line-height: 30px;
 }
 /* host*/
 .content-host-popular h2{
@@ -141,6 +114,7 @@ main ul li{
 #host{
     background-color: #F2F2F2;
     border-radius: 30px;
+    margin-left: 2em;
 }
 .content-article{
     display: flex;
@@ -163,16 +137,17 @@ main ul li{
 .content-host-popular{
     display: flex;
  }
-.fa-star{
-     color:#0065FC ;
-}
+
  /* popular*/
+ #popular{
+     margin-left: 2em;
+     margin-right: 1em;
+ }
  #popular img{
     height: 150px;
     width: 150px;
     object-fit:cover;
-    margin:0px 0px 8px 8px;
-    float: left;
+    margin:5px;
     border-radius: 20px 0px 0px 20px;
 }
 #popular-content{
@@ -190,6 +165,10 @@ main ul li{
 #popular h2{
     margin: 1em;
 }
+.article5{
+    display: flex;
+    flex-direction: row;
+}
 /* bottom*/
 .Activity h2{
     margin-left: 2em;
@@ -204,14 +183,16 @@ main ul li{
     margin: 20px;
     height: 600px;
     width: 350px;
-    border-radius: 20px
-}
+ }
 .article2 img{
     object-fit:cover;
     margin: 20px;
     height: 250px;
     width: 350px;
-    border-radius: 20px
+}
+.Activiy article{
+    border: grey;
+    border-radius: 20px;
 }
 /* footer*/
 footer{
@@ -225,7 +206,8 @@ footer{
 footer li{
     margin: 1em;
 }
-@media screen and (max-width: 300px)
+
+@media screen and (max-width: 500px)
 {
     body{
         width: auto;
@@ -233,5 +215,6 @@ footer li{
     header{
         display: flex;
         flex-direction: column;
+        background-color: red;
     }
 }
