@@ -137,6 +137,7 @@ main ul li span{
     align-items: center;
     flex-wrap: wrap;
     max-width: 1300px;
+    margin-left:3em;
 }
 #host img{
     height: 160px;
