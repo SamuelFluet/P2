@@ -341,11 +341,12 @@ main ul li{
         margin-top:1em;
         margin-right: 1em;
     }
-    nav ul a:hover{
+    nav a:hover{
         border-bottom: blue solid;
+        color: blue;
     }
     nav{
-        border-bottom: grey solid;
+        border-bottom: #F2F2F2 solid;
     }
 
 }
