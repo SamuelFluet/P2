@@ -248,7 +248,12 @@ main ul li{
     font-weight: normal;
     margin: 5px;
 }
-
+.mobile{
+    display: none;
+}
+#logo1{
+    display: none;
+}
 @media screen and (max-width: 500px)
 {
     body{
@@ -309,5 +314,38 @@ main ul li{
         display: inline-block;
         margin: 0px;
         width: 100%;
-    }   
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #logo{
+        display:none;
+    }
+    #logo1{
+        display: flex;
+        margin-right: 10em;
+    }
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   nav a{
+        display: flex;
+        text-decoration: none;
+        color:blue;
+        font-weight: bolder;
+        margin-top:1em;
+        margin-right: 1em;
+    }
+    nav ul a:hover{
+        border-bottom: blue solid;
+    }
+    nav{
+        border-bottom: grey solid;
+    }
+
 }
