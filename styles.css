@@ -108,12 +108,14 @@ main ul li span{
     margin-left: 15px;
 }
 .fa-info{
-    border: 4px;
+    border: solid 2px ;
     border-radius: 100%;
-    border-color: ##F2F2F2;
+    border-color: #F2F2F2;
     color: blue;
+    text-align:center;
     width: 30px;
     line-height: 30px;
+    margin-right: 5px;
 }
 /* host*/
 .content-host-popular h2{
@@ -170,7 +172,7 @@ main ul li span{
 }
 #popular-content article{
     background-color: white;
-    margin: 2em;
+    margin: 35px;
     border-radius: 20px 
 }
 #popular h2{
@@ -210,22 +212,83 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: #F2F2F2;
+    font-size: normal;
 }
 #foot article{
-      margin: 2em;
+      margin: 1em;
 }
-footer li{
-    margin: 1em;
+footer ul{
+    display: flex;
+    flex-direction: column;
+}
+footer h3{
+    font-weight: bold;
+}
+main ul li{
+    font-weight: normal;
+    margin: 5px;
 }
 
 @media screen and (max-width: 500px)
 {
     body{
-        width: auto;
+        width: 100%;
+        margin: 0px;
+    }
+    #logo{
+        width: 30%;
+    }
+    h1{
+        font-weight: bolder;
     }
     header{
         display: flex;
         flex-direction: column;
-        background-color: red;
+        margin: 0px;
     }
+    main{
+        margin:0px;
+    }
+    main ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-host-popular{
+        display: inline-block;
+        margin: 0px;
+        background-color: none;
+    }
+    .Activity h2{
+        margin-left: 0em;
+    }
+    #top p{
+        margin:1em;
+    }
+    #host{
+        margin: 0px;
+        border-radius: 0px;
+    }
+    .content-article{
+        margin: 0px;
+    }
+    #popular{
+        margin: 0px;
+    }
+    #popular-content{
+        margin: 0px;
+        border-radius: 0px;
+    }
+    .Activity{
+        display: inline-block;
+        width: 100%;
+    }
+    .Activity article{
+        margin:1em;
+        }
+    footer{
+        display: inline-block;
+        margin: 0px;
+        width: 100%;
+    }
+   
 }
