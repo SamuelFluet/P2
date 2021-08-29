@@ -224,6 +224,9 @@ main ul li span{
     border: grey;
     border-radius: 20px;
 }
+.Activity h3{
+    margin-left: 1em;
+}
 /* footer*/
 footer{
     display: flex;
