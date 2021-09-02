@@ -254,6 +254,10 @@ main ul li{
 #logo1{
     display: none;
 }
+main ul span:hover{
+    background-color: gold;
+}
+
 @media screen and (max-width: 500px)
 {
     body{
@@ -347,6 +351,10 @@ main ul li{
     }
     nav{
         border-bottom: #F2F2F2 solid;
+    }
+    main ul li{
+        margin: 5px ;
+        padding: 0px ;
     }
 
 }
