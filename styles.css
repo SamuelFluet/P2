@@ -358,3 +358,47 @@ main ul span:hover{
     }
 
 }
+
+@media screen and (max-width: 1024px)
+{
+    body{
+        width: 100%;
+        margin: 0px;
+    }
+    #logo{
+        width: 30%;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .desktop{
+        display: none;
+    }
+    .content-article{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #top{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Activity{
+        display: inline-block;
+        width: 100%;
+    }
+    img{
+        width: 50%;
+    }
+    footer{
+        display: inline-block;
+        margin: 0px;
+        width: 100%;
+    }
+    
+}
