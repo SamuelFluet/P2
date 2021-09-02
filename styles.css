@@ -367,38 +367,45 @@ main ul span:hover{
     }
     #logo{
         width: 30%;
+        margin: 1em;
+    }
+    main{
+        margin:0px;
     }
     header{
-        display: flex;
-        flex-direction: column;
-        margin: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
     }
     .desktop{
         display: none;
     }
+    .content-host-popular{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    #popular{
+        margin-top:1em;
+    }
     .content-article{
-        display: flex;
-        flex-wrap: wrap;
+        margin: 0px;
     }
-    main ul{
-        display: flex;
-        flex-wrap: wrap;
+    #host{
+        margin:0px;
     }
-    #top{
+    main ul li{
         display: flex;
-        flex-wrap: wrap;
     }
     .Activity{
-        display: inline-block;
-        width: 100%;
+    display: flex;     
     }
-    img{
-        width: 50%;
+    #section-bottom{
+        width:100%;
     }
     footer{
-        display: inline-block;
-        margin: 0px;
-        width: 100%;
+    display: inline-block;
+    margin: 0px;
+    width: 100%;
     }
-    
 }
