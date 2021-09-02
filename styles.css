@@ -151,6 +151,9 @@ main ul li span{
     border-radius: 30px;
     margin:1em;
 }
+#host article:hover{
+    border: #0065FC solid 2px;
+}
 .content-host-popular{
     display: flex;
 }
@@ -169,6 +172,9 @@ main ul li span{
 }
  #popular h1{
      font-weight:x-large;
+}
+#popular article:hover{
+    border: #0065FC solid 2px;
 }
  #popular img{
     height: 180px;
@@ -207,6 +213,9 @@ main ul li span{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+}
+#section-bottom article:hover{
+    border: #0065FC solid 2px;
 }
 .article1 img{
     object-fit:cover;
@@ -256,6 +265,9 @@ main ul li{
 }
 main ul span:hover{
     background-color: gold;
+}
+#host article:hover{
+    border-color: #0065FC 5px solid;
 }
 
 @media screen and (max-width: 500px)
