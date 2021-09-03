@@ -1,6 +1,8 @@
 body{
      font-family: 'Raleway', sans-serif;
      color: black;
+     margin-left: 6em;
+     margin-right: 6em;
 }
 ul{
     list-style: none;
@@ -12,6 +14,7 @@ h2{
 h3{
     font-size:normal;
 }
+
 /* header*/
 header{
     display:flex;
@@ -154,7 +157,8 @@ main ul li span{
 }
 #host article:hover{
     cursor: pointer;
-    border: #0065FC solid 2px;
+    border-right: black solid 4px;
+    border-bottom: black solid 4px;
 }
 .content-host-popular{
     display: flex;
@@ -176,7 +180,8 @@ main ul li span{
      font-weight:x-large;
 }
 #popular article:hover{
-    border: #0065FC solid 2px;
+    border-right: black solid 4px;
+    border-bottom: black solid 4px;
     cursor: pointer;
 }
  #popular img{
@@ -218,7 +223,8 @@ main ul li span{
     justify-content: space-around;
 }
 #section-bottom article:hover{
-    border: #0065FC solid 2px;
+    border-right: black solid 4px;
+    border-bottom: black solid 4px;
     cursor: pointer;
 }
 .article1 img{
@@ -277,7 +283,8 @@ main ul span:hover{
 }
 #host article:hover{
     cursor: pointer;
-    border-color: #0065FC 5px solid;
+    border-right: black solid 4px;
+    border-bottom: black solid 4px;
 }
 main h4{
     display:none;
@@ -358,7 +365,7 @@ main h4{
     }
     #logo1{
         display: flex;
-        margin-right: 10em;
+        margin-right: 8em;
     }
     .navbar{
         display: flex;
@@ -387,7 +394,7 @@ main h4{
 
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 800px)
 {
     body{
         width: 100%;
@@ -416,6 +423,9 @@ main h4{
     #popular{
         margin-top:1em;
     }
+    .Activity{
+        display: inline-block;
+    }
     .content-article{
         margin: 0px;
     }
@@ -424,9 +434,6 @@ main h4{
     }
     main ul li{
         display: flex;
-    }
-    .Activity{
-    display: flex;     
     }
     #section-bottom{
         width:100%;
