@@ -37,9 +37,10 @@ nav ul li a{
     color:black;
 }
 nav ul li a:hover{
+    cursor: pointer;
     padding-top: 10px;
-      border-top:#0065FC 1px solid;
-      color:#0065FC ;
+    border-top:#0065FC 1px solid;
+    color:#0065FC ;
 }
 body h1{
     font-size: large;
@@ -152,6 +153,7 @@ main ul li span{
     margin:1em;
 }
 #host article:hover{
+    cursor: pointer;
     border: #0065FC solid 2px;
 }
 .content-host-popular{
@@ -175,6 +177,7 @@ main ul li span{
 }
 #popular article:hover{
     border: #0065FC solid 2px;
+    cursor: pointer;
 }
  #popular img{
     height: 180px;
@@ -216,6 +219,7 @@ main ul li span{
 }
 #section-bottom article:hover{
     border: #0065FC solid 2px;
+    cursor: pointer;
 }
 .article1 img{
     object-fit:cover;
@@ -257,6 +261,10 @@ main ul li{
     font-weight: normal;
     margin: 5px;
 }
+footer li:hover{
+    cursor: pointer;
+    color: blue;
+}
 .mobile{
     display: none;
 }
@@ -264,9 +272,11 @@ main ul li{
     display: none;
 }
 main ul span:hover{
+    cursor: pointer;
     background-color: gold;
 }
 #host article:hover{
+    cursor: pointer;
     border-color: #0065FC 5px solid;
 }
 
@@ -358,6 +368,7 @@ main ul span:hover{
         margin-right: 1em;
     }
     nav a:hover{
+        cursor: pointer;
         border-bottom: blue solid;
         color: blue;
     }
