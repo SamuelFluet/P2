@@ -68,6 +68,9 @@ button{
     border-radius: 0px 15px 15px 0px;
     padding: 10px 15px 10px 15px;
 }
+button:hover{
+    cursor: pointer;
+}
 .fa-map-marker-alt{
     border: solid;
     padding: 10px 15px 10px 15px;
