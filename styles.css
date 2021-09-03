@@ -361,7 +361,7 @@ main h4{
         display: flex;
         flex-wrap: wrap;
     }
-   nav a{
+    nav a{
         display: flex;
         text-decoration: none;
         color:blue;
