@@ -279,7 +279,9 @@ main ul span:hover{
     cursor: pointer;
     border-color: #0065FC 5px solid;
 }
-
+main h4{
+    display:none;
+}
 @media screen and (max-width: 500px)
 {
     body{
