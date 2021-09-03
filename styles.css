@@ -425,6 +425,9 @@ main h4{
         margin: 10px;
         flex-direction: column-reverse;
     }
+    #top {
+        margin-left: 1em
+    }
     #popular{
         margin-top:1em;
     }
