@@ -288,6 +288,9 @@ main h4{
         width: 100%;
         margin: 0px;
     }
+    main{
+        margin:0px;
+    }
     #logo{
         width: 30%;
     }
