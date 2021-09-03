@@ -39,7 +39,7 @@ nav ul li a{
     text-decoration: none;
     color:black;
 }
-nav ul li a:hover{
+nav.desktop ul li a:hover{
     cursor: pointer;
     padding-top: 10px;
     border-top:#0065FC 1px solid;
@@ -224,18 +224,24 @@ main ul li span{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    overflow: hidden;
 }
 #section-bottom article:hover{
     border-right: black solid 4px;
     border-bottom: black solid 4px;
     cursor: pointer;
 }
+.Activity article{
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    overflow: hidden;
+}
 .article1 img{
     object-fit:cover;
     margin: 20px;
     height: 600px;
     width: 350px;
- }
+}
 .article2 img{
     object-fit:cover;
     margin: 20px;
@@ -376,25 +382,31 @@ main h4{
         flex-wrap: wrap;
     }
     nav a{
-        display: flex;
         text-decoration: none;
         color:blue;
         font-weight: bolder;
         margin-top:1em;
         margin-right: 1em;
     }
-    nav:hover{
-        cursor: pointer;
-        border-bottom: blue solid;
-        color: blue;
-    }
-    nav{
-        border-bottom: #F2F2F2 solid 5px;
-    }
-    main ul li{
-        margin: 5px ;
+    nav.mobile ul li{
+        margin: 0px ;
         padding: 0px ;
+        padding-bottom: 10px;
+        border-bottom: #F2F2F2 solid 4px;
+        width: 50%;
+        text-align: center;
     }
+    nav ul{
+        width:100%;
+        padding:0px;
+    }
+    nav.mobile a:hover{
+        color: #0065FC;
+    }
+    nav.mobile ul li:hover{
+        cursor: pointer;
+        border-bottom: #0065FC solid 2px;
+   }
 
 }
 
