@@ -214,28 +214,24 @@ main ul li span{
 .Activity{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
-    overflow: hidden;
+    align-content: space-between;
 }
 .Activity article{
     border: 1px solid #F2F2F2;
     width:100%;
-    overflow: hidden;
     border: grey;
     border-radius: 20px;
-}
+    display: inline-block;
+ }
 .article1 img{
     object-fit:cover;
-    margin: 20px;
     height: 600px;
-    width: 70%;
+    width: 60%;
 }
 .article2 img{
     object-fit:cover;
-    margin: 20px;
     height: 250px;
-    overflow: hidden;
-    width: 100%;
+    width: 90%;
 }
 .Activity h3{
     margin-left: 1em;
