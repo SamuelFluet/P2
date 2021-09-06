@@ -158,11 +158,6 @@ main ul li span{
     border-radius: 30px;
     margin:1em;
 }
-#host article:hover{
-    cursor: pointer;
-    border-right: black solid 4px;
-    border-bottom: black solid 4px;
-}
 .content-host-popular{
     display: flex;
 }
@@ -179,15 +174,11 @@ main ul li span{
      margin-left: 3em;
      margin-right: 2em;
 }
- #popular h1{
+#popular h1{
      font-weight:x-large;
 }
-#popular article:hover{
-    border-right: black solid 4px;
-    border-bottom: black solid 4px;
-    cursor: pointer;
-}
- #popular img{
+
+#popular img{
     height: 180px;
     width: 150px;
     object-fit:cover;
@@ -226,27 +217,22 @@ main ul li span{
     justify-content: space-around;
     overflow: hidden;
 }
-#section-bottom article:hover{
-    border-right: black solid 4px;
-    border-bottom: black solid 4px;
-    cursor: pointer;
-}
 .Activity article{
     border: 1px solid #F2F2F2;
     border-radius: 4px;
+    width:100%;
     overflow: hidden;
 }
 .article1 img{
     object-fit:cover;
     margin: 20px;
     height: 600px;
-    width: 350px;
 }
 .article2 img{
     object-fit:cover;
     margin: 20px;
     height: 250px;
-    width: 350px;
+    overflow: hidden;
 }
 .Activiy article{
     border: grey;
@@ -289,11 +275,6 @@ footer li:hover{
 main ul span:hover{
     cursor: pointer;
     background-color: gold;
-}
-#host article:hover{
-    cursor: pointer;
-    border-right: black solid 4px;
-    border-bottom: black solid 4px;
 }
 main h4{
     display:none;
@@ -357,6 +338,7 @@ main h4{
     }
     .Activity article{
         margin:1em;
+        border-radius: 20px;
         }
     footer{
         display: inline-block;
