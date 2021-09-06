@@ -219,24 +219,23 @@ main ul li span{
 }
 .Activity article{
     border: 1px solid #F2F2F2;
-    border-radius: 4px;
     width:100%;
     overflow: hidden;
+    border: grey;
+    border-radius: 20px;
 }
 .article1 img{
     object-fit:cover;
     margin: 20px;
     height: 600px;
+    width: 70%;
 }
 .article2 img{
     object-fit:cover;
     margin: 20px;
     height: 250px;
     overflow: hidden;
-}
-.Activiy article{
-    border: grey;
-    border-radius: 20px;
+    width: 100%;
 }
 .Activity h3{
     margin-left: 1em;
