@@ -4,6 +4,11 @@ body{
      margin-left: 6em;
      margin-right: 6em;
 }
+a
+{ 
+ text-decoration:none;
+ color: black; 
+}
 ul{
     list-style: none;
 }
@@ -208,6 +213,10 @@ main ul li span{
     margin:1em 1em 2em 0px;
 }
 /* bottom*/
+#section-bottom{
+    justify-content: space-between;
+}
+
 .Activity h2{
     margin-left: 2em;
 }
@@ -232,6 +241,9 @@ main ul li span{
     object-fit:cover;
     height: 250px;
     width: 90%;
+}
+.activity2{
+    align-content: center;
 }
 .Activity h3{
     margin-left: 1em;
@@ -274,7 +286,10 @@ main ul span:hover{
 main h4{
     display:none;
 }
-@media screen and (max-width: 500px)
+.mobilebutt{
+    display: none;
+}
+@media screen and (max-width: 320px)
 {
     body{
         width: 100%;
@@ -384,6 +399,12 @@ main h4{
         cursor: pointer;
         border-bottom: #0065FC solid 2px;
    }
+   .desktopbutt{
+       display: none;
+   }
+   .mobilebutt{
+    display: inline-block;
+    }
 
 }
 
@@ -441,4 +462,11 @@ main h4{
     margin: 0px;
     width: 100%;
     }
+    .desktopbutt{
+        display: none;
+    }
+    .mobilebutt{
+        display: inline-block;
+    }
+    
 }
