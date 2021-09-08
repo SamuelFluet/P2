@@ -219,6 +219,9 @@ main ul li span{
     font-size: 30px;
     margin:1em 1em 2em 0px;
 }
+.star{
+    margin: 1em;
+}
 /* bottom*/
 .Activity{
     display:grid;
