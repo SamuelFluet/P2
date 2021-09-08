@@ -17,7 +17,10 @@ h2{
     font-size: x-large;
 }
 h3{
-    font-size:normal;
+    font-size:  1em;
+}
+article{
+    box-shadow: 5px 5px 5px #f2f2f2;
 }
 
 /* header*/
@@ -38,7 +41,7 @@ nav ul{
 nav ul li{
     margin: 1em;
     padding-top: 10px;
-    font-weight:bold;
+    font-weight: bolder;
 }
 nav ul li a{
     text-decoration: none;
@@ -213,47 +216,28 @@ main ul li span{
     margin:1em 1em 2em 0px;
 }
 /* bottom*/
-#section-bottom{
-    justify-content: space-between;
-}
-
-.Activity h2{
-    margin-left: 2em;
-}
 .Activity{
-    display:flex;
-    flex-direction: row;
-    align-content: space-between;
+    display:grid;
+    grid-template-columns: 23% 23% 23% 23% ;
+    justify-content: space-around;
 }
 .Activity article{
-    border: 1px solid #F2F2F2;
+    border-radius: 30px;
+    overflow: hidden;
+    margin:10px;
+}
+.Activity img{
     width:100%;
-    border: grey;
-    border-radius: 20px;
-    display: inline-block;
- }
-.article1 img{
-    object-fit:cover;
-    height: 600px;
-    width: 60%;
 }
-.article2 img{
-    object-fit:cover;
-    height: 250px;
-    width: 90%;
-}
-.activity2{
-    align-content: center;
-}
-.Activity h3{
-    margin-left: 1em;
+.Activty article:hover{
+    box-shadow: 5px 5px 5px #888;
 }
 /* footer*/
 footer{
     display: flex;
     justify-content: space-around;
     background-color: #F2F2F2;
-    font-size: normal;
+    font-size: 1em;
 }
 #foot article{
       margin: 1em;
@@ -320,7 +304,7 @@ main h4{
     .content-host-popular{
         display: inline-block;
         margin: 0px;
-        background-color: none;
+        background-color: transparent;
     }
     .Activity h2{
         margin-left: 0em;
@@ -331,6 +315,9 @@ main h4{
     #host{
         margin: 0px;
         border-radius: 0px;
+    }
+    #host img{
+        width: 260px;
     }
     .content-article{
         margin: 0px;
