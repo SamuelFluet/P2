@@ -166,6 +166,9 @@ main ul li span{
     border-radius: 30px;
     margin:1em;
 }
+#host article:hover{
+    box-shadow: 5px 5px 5px #888;
+}
 .content-host-popular{
     display: flex;
 }
@@ -203,6 +206,9 @@ main ul li span{
     background-color: white;
     margin: 20px;
     border-radius: 20px 
+}
+#popular-content article:hover{
+    box-shadow: 5px 5px 5px #888;
 }
 #popular h2{
     margin: 1em;
