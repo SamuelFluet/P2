@@ -1,3 +1,4 @@
+
 body{
      font-family: 'Raleway', sans-serif;
      color: black;
@@ -411,9 +412,7 @@ main h4{
    .mobilebutt{
     display: inline-block;
     }
-
 }
-
 @media screen and (max-width: 768px)
 {
     body{
@@ -481,4 +480,10 @@ main h4{
         display: inline-block;
     }
     
+}
+@media screen and (max-width: 1100px){
+    body{
+        margin-left:0px;
+        margin-right: 0px;
+    }
 }
