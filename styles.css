@@ -246,6 +246,9 @@ main ul li span{
 .Activity article:hover{
     box-shadow: 5px 5px 5px #888;
 }
+.Activity h3{
+    margin-left: 1em;
+}
 
 /* footer*/
 footer{
