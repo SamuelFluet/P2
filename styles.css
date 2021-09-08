@@ -82,7 +82,6 @@ button:hover{
 .fa-map-marker-alt{
     border: solid;
     padding: 10px 15px 10px 15px;
-    border-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     background-color:#F2F2F2 ;
 }
@@ -183,7 +182,7 @@ main ul li span{
      margin-right: 2em;
 }
 #popular h1{
-     font-weight:x-large;
+    font-weight: bold;
 }
 
 #popular img{
