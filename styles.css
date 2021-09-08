@@ -229,9 +229,18 @@ main ul li span{
 .Activity img{
     width:100%;
 }
-.Activty article:hover{
+.article1 img{
+    height:600px;
+    object-fit:cover;
+}
+.article2 img{
+    height:270px;
+    object-fit:cover;
+}
+.Activity article:hover{
     box-shadow: 5px 5px 5px #888;
 }
+
 /* footer*/
 footer{
     display: flex;
