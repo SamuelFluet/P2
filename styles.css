@@ -335,6 +335,7 @@ main h4{
     #host{
         margin: 0px;
         border-radius: 0px;
+        background-color: white;
     }
     #host img{
         width: 260px;
