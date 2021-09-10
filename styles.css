@@ -164,6 +164,7 @@ main ul li span{
     border-radius: 30px;
     margin:1em;
     overflow: hidden;
+    width: 27%;
 }
 #host article:hover{
     box-shadow: 5px 5px 5px #888;
@@ -300,6 +301,9 @@ main h4{
         width: 100%;
         margin: 0px;
     }
+    nav.desktop{
+        display: none;
+    }
     main{
         margin:0px;
     }
@@ -330,6 +334,13 @@ main h4{
     .Activity h2{
         margin-left: 0em;
     }
+    #host article {
+        background-color: white;
+        border-radius: 30px;
+        margin: 1em;
+        overflow: hidden;
+        width: 100%;
+    }
     #top p{
         margin:1em;
     }
@@ -337,9 +348,6 @@ main h4{
         margin: 0px;
         border-radius: 0px;
         background-color: white;
-    }
-    #host img{
-        width: 260px;
     }
     .content-article{
         margin: 0px;
@@ -359,6 +367,9 @@ main h4{
         margin:1em;
         border-radius: 20px;
         }
+    .Activity img{
+        height: 100px;
+    }
     footer{
         display: inline-block;
         margin: 0px;
@@ -421,6 +432,9 @@ main h4{
         width: 100%;
         margin: 0px;
     }
+    body h1{
+        margin-left: 0px;
+    }
     #logo{
         width: 20%;
         margin: 1em;
@@ -431,16 +445,18 @@ main h4{
     #top{
         margin-top:10px;
     }
+    header{
+        margin-left: 0em;
+    }
     main{
         margin:0px;
     }
-    header{
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-    }
     .desktop{
-        display: none;
+        display: flex;
+    }
+    .Activity img{
+        height: 300px;
+        width:100%;
     }
     .content-host-popular{
         display: flex;
@@ -453,15 +469,28 @@ main h4{
     }
     #popular{
         margin-top:1em;
+        margin: 0px;
+        border-radius: 0px;
+    }
+    #popular-content{
+        border-radius: 0px;
     }
     .Activity{
         display: inline-block;
+        width: 100%;
     }
     .content-article{
         margin: 0px;
     }
     #host{
         margin:0px;
+        background-color: white;
+    }
+    main ul{
+        padding:0px;
+    }
+    .Activity article{
+        margin-bottom: 20px;
     }
     main ul li{
         display: flex;
@@ -471,21 +500,16 @@ main h4{
         width:100%;
     }
     footer{
-    display: inline-block;
     margin: 0px;
     width: 100%;
+    }
+    main ul li span {
+        margin-right: 1em;
     }
     .desktopbutt{
         display: none;
     }
     .mobilebutt{
         display: inline-block;
-    }
-    
-}
-@media screen and (max-width: 1100px){
-    body{
-        margin-left:0px;
-        margin-right: 0px;
-    }
+    }   
 }
