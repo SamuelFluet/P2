@@ -1,6 +1,7 @@
 body{
      font-family: 'Raleway', sans-serif;
      color: black;
+     margin:0px;
 }
 a
 { 
@@ -22,14 +23,14 @@ article{
 }
 
 /* header*/
+#logo{
+    margin-left: 0px;
+}
 header{
     display:flex;
     justify-content:space-between;
-    margin-left: 6em;
+    margin-left: 2em;
     flex-direction: row;
-}
-main{
-    margin-left: 20px;
 }
 nav ul{
     display: flex;
@@ -53,7 +54,6 @@ nav.desktop ul li a:hover{
 }
 body h1{
     font-size: large;
-    margin-left: 1em;
 }
 #catégories{
     display: flex;
