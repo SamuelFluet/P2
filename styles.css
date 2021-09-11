@@ -226,6 +226,9 @@ main ul li span{
     margin: 1em;
 }
 /* bottom*/
+#section-bottom h2{
+    margin-left: 2em;
+}
 .Activity{
     display:grid;
     grid-template-columns: 23% 23% 23% 23% ;
